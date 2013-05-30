@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Loader">
+      <UniqueIdentifier>{9b79a87a-1d84-43bc-97b5-8d0cd0e92304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{e5a8aa46-77e9-4e9a-b584-fc91e18bd21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Helpers">
+      <UniqueIdentifier>{a7f08d1a-12bb-49c0-bd19-a18d1527e155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header\Loader">
+      <UniqueIdentifier>{bc0d584d-f3c3-4545-ba00-9e964d4d2d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System">
+      <UniqueIdentifier>{7da85747-640a-4370-83ae-1808b938597e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Helpers">
+      <UniqueIdentifier>{d76ac8ae-fd0f-4e4f-b127-e0da46bd853d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\relocations.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\tls_support.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\activation_context.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\api_stubs.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\dependencies.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\hash_patcher.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\image_descriptor.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\image_mapper.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\loader.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader\process_patcher.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\dbgcl.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\system.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\strings.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\cmd.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\format.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\message_box.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\opendialog.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\string_resource.cpp">
+      <Filter>Source\Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\errors.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loader\api_stubs.h">
+      <Filter>Header\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loader\image_descriptor.h">
+      <Filter>Header\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loader\loader.h">
+      <Filter>Header\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loader\ntldr.h">
+      <Filter>Header\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\strings.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\cmd.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\format.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\message_box.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\opendialog.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\string_resource.h">
+      <Filter>Header\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\system.h">
+      <Filter>Header\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\dbgcl.h">
+      <Filter>Header\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\syscalls.h">
+      <Filter>Header\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources\resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\resources\messages.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
